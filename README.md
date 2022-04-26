@@ -40,8 +40,16 @@ Then, run the demo script via
 ```
 python -i tskew_demo.py
 ```
+The generated images will be similar to
+
+
+![PDF_and_CDF](https://github.com/efvega/tskew/blob/main/media/pdf_cdf.png?) ![Exponential_fit](https://github.com/efvega/tskew/blob/main/media/exponential_fit.png?)
+
+
+
 The -i flag makes the script run in interactive mode so that the plots do not immediately close on program termination. A simplified use-case might look like
 ```
 from tskew.tskew import fit_tskew
 loc_est, scale_est, df_est, skew_param_est = fit_tskew(my_data)
 ```
+
